@@ -17,7 +17,7 @@ background-color: #ff9e31;
 					</button>
 					
 				</view>
-				<text decode="true" class="about_48">jiabusanyi@163.com 11</text>
+				<text decode="true" class="about_48">jiabusanyi@163.com</text>
 				<text decode="true" class="about_50">客户服务热线</text> 
 				<text decode="true" class="about_52">17798743931</text>
 				<view class="about_53">
