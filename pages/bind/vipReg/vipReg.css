@@ -1,0 +1,23 @@
+/* pages/bind/vipReg/vipReg.wxss */
+.container{
+  padding:40rpx 30rpx;
+}
+.bindText{
+  font-size:35rpx;
+  margin-bottom:100rpx;
+}
+.content input{
+  border-bottom:1px solid #ddd;
+  font-size:35rpx;
+  height:90rpx;
+}
+.huoqu{
+  border:none;
+  margin-top:30rpx;
+  border-radius:40rpx;
+  background:#ddd;
+  color:#fff;
+}
+.actionActive{
+  background:orangered;
+}

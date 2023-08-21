@@ -1,0 +1,28 @@
+/* pages/addAddress/addAddress.wxss */
+page{
+  background:#f1f1f1;
+}
+.container{
+  width:100%;
+  padding-top:20rpx;
+  font-size:28rpx;
+}
+
+
+.moren{
+   width:700rpx;
+   box-shadow: 10rpx 10rpx 10rpx #ddd ;
+   margin:30rpx auto;
+   background:#fff;
+   padding:30rpx 20rpx;
+     border-radius:20rpx;
+}
+.confirm{
+  margin:50rpx auto;
+  width:700rpx;
+  text-align:center;
+  background:#fc7037;
+     border-radius:20rpx;
+     color:#fff;
+     padding:20rpx;
+}

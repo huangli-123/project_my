@@ -1,0 +1,30 @@
+/* pages/search/search.wxss */
+page{
+  background:#f5f5f5;
+}
+
+.paixu{
+  height:90rpx;
+  position:fixed;
+  top:0;
+  z-index:10;
+  background:#f5f5f5;
+  width:100%;
+}
+.paixu view{
+  padding:20rpx;
+}
+
+.mustBuyGoodsList .mustBuyGoodsItem{
+  background:#fff;
+  margin-top: 100rpx;
+  
+}
+.search_shop{
+	width: 95%;
+	height: 130px;
+	display: flex;
+	margin: 10px auto;
+	border-radius: 10px;
+	background: #FFFFFF;
+}

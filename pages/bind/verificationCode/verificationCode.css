@@ -1,0 +1,49 @@
+/* pages/bind/vipReg/vipReg.wxss */
+ .container{
+  padding:40rpx 30rpx;
+}
+.bindText{
+  font-size:35rpx;
+  margin-bottom:70rpx;
+}
+.content view{
+  margin-top:30rpx;
+}
+.content input{
+ 
+  font-size:35rpx;
+  height:90rpx;
+}
+.huoqu{
+  border:none;
+  margin-top:30rpx;
+  border-radius:40rpx;
+  background:#ddd!important;
+  color:#fff!important;
+} 
+.iptbox{ 
+ width: 150rpx; 
+ height: 80rpx; 
+ border-bottom:1px solid #ddd;  
+ text-align: center; 
+} 
+.ipt{ 
+ width: 0; 
+ height: 0; 
+}
+.getcodeBody{
+  border-bottom:1px solid #ddd;
+} 
+.getCode:after{ border: none; }
+.getCode{
+  background:none!important;
+  color:orangered!important;
+  border:none;
+  box-shadow: none;
+}
+.getCode.dis{
+  color:#b7b7b7!important;
+}
+.actionActive{
+   background:orangered!important;
+}

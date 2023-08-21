@@ -1,0 +1,328 @@
+{
+	"pages": [
+		
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {}
+		// },
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/nearbLeaders/nearbLeaders",
+			"style": {
+				"navigationBarTitleText": "附近服务天使"
+			}
+		},
+		{
+			"path": "pages/city/city",
+			"style": {}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {}
+		},
+		{
+			"path": "pages/forget/forget",
+			"style": {}
+		},
+		{
+			"path": "pages/livetelecast/livetelecast",
+			"style": {}
+		},
+		{
+			"path": "pages/fenlei/fenlei",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/shoppingCar/shoppingCar",
+			"style": {}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/spike/spike",
+			"style": {
+				"navigationBarTitleText": "限时秒杀"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/goodsList/goodsList",
+			"style": {
+				"navigationBarTitleText": "商品列表"
+			}
+		},
+		{
+			"path": "pages/goodDetail/goodDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/confirmOrder/confirmOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/refund/refund",
+			"style": {
+				"navigationBarBackgroundColor": "#f5f5f5",
+				"navigationBarTitleText": "申请退款"
+			}
+		},
+		{
+			"path": "pages/evaluationList/evaluationList",
+			"style": {
+				"navigationBarTitleText": "商品评价"
+			}
+		},
+		{
+			"path": "pages/writingEvaluation/writingEvaluation",
+			"style": {
+				"navigationBarTitleText": "发表评价",
+				"navigationBarBackgroundColor": "#f5f5f5"
+			}
+		},
+		{
+			"path": "pages/bind/mobilPhone/mobilPhone",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		},
+		{
+			"path": "pages/bind/vipReg/vipReg",
+			"style": {
+				"navigationBarTitleText": "会员注册",
+				"navigationBarBackgroundColor": "#ff0000",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/bind/verificationCode/verificationCode",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		},
+		{
+			"path": "pages/addressList/addressList",
+			"style": {
+				"navigationBarTitleText": "我的服务地址"
+			}
+		},
+		{
+			"path": "pages/addAddress/addAddress",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+			}
+		},
+		{
+			"path": "pages/store/index/index",
+			"style": {
+				"navigationBarTitleText": "店铺"
+			}
+		},
+		{
+			"path": "pages/demo/demo",
+			"style": {}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {}
+		},
+		{
+			"path": "pages/forget/forget",
+			"style": {}
+		},
+		{
+			"path": "pages/commission/commission",
+			"style": {}
+		},
+		{
+			"path": "pages/commission/two",
+			"style": {}
+		},
+		{
+			"path": "pages/commission/two2",
+			"style": {}
+		},
+		{
+			"path": "pages/commission/three",
+			"style": {}
+		},
+		{
+			"path": "pages/merchant/merchant",
+			"style": {}
+		},
+		{
+			"path": "pages/about/ys",
+			"style": {}
+		},
+		{
+			"path": "pages/about/zc",
+			"style": {}
+		},
+		{
+			"path": "pages/withdrawal/withdrawal",
+			"style": {
+				"navigationBarTitleText": "推荐代理商提现",
+				"navigationBarBackgroundColor": "#f5f5f5"
+			}
+		},
+		{
+			"path": "pages/withdrawal/withdrawal2",
+			"style": {
+				"navigationBarTitleText": "商品订单提现",
+				"navigationBarBackgroundColor": "#f5f5f5"
+			}
+		},
+		{
+			"path": "pages/bindPayment/bindAlipay",
+			"style": {}
+		},
+		{
+			"path": "pages/commission/four",
+			"style" : {
+			      "navigationBarTitleText" : "霞光家政",
+			      "app-plus": {
+			          "bounce": "none", //关闭窗口回弹效果
+			          "titleNView": {
+			              "buttons": [ //原生标题栏按钮配置,
+			                  {
+			                       "type":"close",
+			                       "text":"返回主页",
+			                       "float":"right"
+			                  }
+			               ]
+			           }
+			       }
+			  }
+		},
+		{
+			"path": "pages/commission/five",
+			"style" : {
+			      "navigationBarTitleText" : "言行教育",
+			      "app-plus": {
+			          "bounce": "none", //关闭窗口回弹效果
+			          "titleNView": {
+			              "buttons": [ //原生标题栏按钮配置,
+			                  {
+			                       "type":"close",
+			                       "text":"返回主页",
+			                       "float":"right"
+			                  }
+			               ]
+			           }
+			       }
+			  }
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarBackgroundColor":"#ffffff",
+				"navigationBarTitleText": "关于我们",
+				"navigationBarTextStyle": "black"
+				
+			}
+		}
+	],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "方便您的取货"
+		}
+	},
+	"tabBar": {
+		"color": "#a9b7b7",
+		"selectedColor": "#1de7b5",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "家步",
+				"iconPath": "/static/images/footer/ccv1.png",
+				"selectedIconPath": "/static/images/footer/ccv.png"
+			},
+			{
+				"pagePath": "pages/fenlei/fenlei",
+				"text": "探物",
+				"iconPath": "/static/images/footer/tw.png",
+				"selectedIconPath": "/static/images/footer/tw1.png"
+			},
+			{
+				"pagePath": "pages/shoppingCar/shoppingCar",
+				"text": "购物篮",
+				"iconPath": "/static/images/footer/clz.png",
+				"selectedIconPath": "/static/images/footer/clz1.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "福地",
+				"iconPath": "/static/images/footer/garde1.png",
+				"selectedIconPath": "/static/images/footer/garde.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "家步31",
+		"navigationBarTextStyle": "black"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"subPackages": []
+}

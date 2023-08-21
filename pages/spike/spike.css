@@ -1,0 +1,24 @@
+/* pages/spike/spike.wxss */
+.goodsScrollView{
+  white-space: nowrap;  
+  background:orange;
+  text-align:center;
+}
+
+.spikeGoodItem{
+  width:240rpx;
+  display: inline-block; 
+  line-height:35rpx;
+  height:120rpx;
+  border-right:1px solid #fff;
+}
+.spikeGoodItemV{
+  width:200rpx;
+  height:80rpx;
+  border-radius:40rpx;
+  margin-top:20rpx;
+  margin-left:20rpx;
+}
+.timeActive{
+  background:#fff;
+}

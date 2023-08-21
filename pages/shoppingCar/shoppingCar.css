@@ -1,0 +1,117 @@
+/* pages/car/car.wxss */
+page{
+  background:#f5f5f5;
+}
+.html{
+  padding-bottom:120rpx;
+  width:750rpx;
+}
+.good-list{
+  width:750rpx;
+  height:210rpx;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  padding:10rpx 20rpx;
+ border-top:10px solid #f5f5f5;
+}
+.good-img{
+  width:150rpx;
+  height:150rpx;
+}
+.main{
+  margin-top:20rpx;
+  background:#fff;
+}
+.good-list-view{
+ position:relative;
+ height:100%;
+ width:510rpx;
+ padding-left:10rpx;
+}
+.good-list-view-all{
+   display:flex;
+   width:510rpx;
+   align-items: center; 
+   justify-content: space-between;
+   position:absolute;
+   left:10rpx;
+   bottom:10rpx;
+}
+.good-list-view-all>text{
+  color:#dc5563;
+}
+
+.good-list-view-btn text{
+  display:inline-block;
+  width:60rpx;
+  height:35rpx;
+  line-height:35rpx;
+ border:1px solid #ddd;
+ text-align:center;
+ font-size:22rpx;
+}
+.good-list-view-btn text.delete{
+    border:none;
+    margin-left:20rpx;
+}
+.good-list-view-btn .number{
+   border:none;
+   border-top:1px solid #ddd;
+   border-bottom:1px solid #ddd;
+}
+.jiesuan{
+  padding:0 20rpx;
+  position:fixed;
+  bottom:0;
+  left:0;
+  background:rgba(255,255,255,0.5);
+  height:60rpx;
+  width:750rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.jiesuan-all{
+   height:60rpx;
+   line-height: 60rpx;
+   background:none;
+}
+.jiesuan-all .price{
+  color:#dc5563;
+}
+.jiesuan-all .btn{
+  color:#fff;
+  background:#dc5563;
+  display: inline-block;
+  width:160rpx;
+  height:100%;
+  text-align: center;
+  margin-left:30rpx;
+}
+.good-list-view .title{
+   display:block;
+   overflow:hidden;
+  text-overflow:ellipsis;
+   white-space:nowrap;
+}
+.good-list-view .guige{
+   font-size:20rpx;
+   color:#b7b7b7;
+}
+.main>.title{
+  color:#6F6C6C;
+  font-size:25rpx;
+  padding:10rpx 20rpx;
+}
+.main>.title image{
+  width:50rpx;
+  height:50rpx;
+  border-radius:50%;
+}
+.no-car{
+  padding:200rpx 0;
+}
+.no-car text{
+  font-size:80rpx;
+}

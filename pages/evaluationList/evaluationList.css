@@ -1,0 +1,36 @@
+/* pages/evaluationList/evaluationList.wxss */
+.evaluationList .evaluationItem{
+  padding:20rpx;
+}
+.overflow{
+	width: 150rpx;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+}
+.evaluationList .evaluationItem .headerPic{
+   width:60rpx;
+   height:60rpx;
+   border-radius:50%;
+  
+}
+.evaluationList .evaluationItem  .starItem{
+  display:flex;
+  padding:0;
+  margin:0;
+  height:auto;
+  width:auto;
+}
+.starItem .icon-buoumaotubiao44{
+  font-size:25rpx;
+  color:#F5D65D;
+}
+.evaluationItem-content{
+  width:100%;
+}
+.evaluationItem-content .picList image{
+   width:230rpx;
+   height:200rpx;
+   margin-right:6rpx;
+}
+.evaluationItem-content .date{
+  text-align:right;
+  margin-top:20rpx;
+}

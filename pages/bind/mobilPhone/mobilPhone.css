@@ -1,0 +1,32 @@
+/* pages/bind/mobilPhone/mobilPhone.wxss */
+.bindText{
+  text-align:center;
+  padding-bottom:200rpx;
+  padding-top:290rpx;
+}
+.bindText view{
+  font-size:35rpx;
+  padding:10rpx;
+}
+.bindButton{
+  width:100%;
+  padding:0 50rpx;
+}
+.bindButton button{
+  background:orangered;
+  color:#fff;
+  border:none;
+  border-radius:40rpx;
+  height:80rpx;
+  line-height:80rpx;
+}
+.bindButton navigator{
+  width:100%;
+  height:80rpx;
+  line-height:80rpx;
+  text-align:center;
+  margin-top:30rpx;
+  color:orangered;
+  border:1px solid orangered;
+   border-radius:40rpx;
+}

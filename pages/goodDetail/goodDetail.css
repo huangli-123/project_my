@@ -1,0 +1,413 @@
+/* pages/goodDetail/goodDetail.wxss */
+
+page {
+  background: #f5f5f5;
+}
+.overflow{
+	width: 150rpx;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+}
+.swiperList {
+  width: 100%;
+  height: 700rpx;
+}
+
+.swiperList image {
+  width: 100%;
+  height: 100%;
+}
+
+.swiperList .slide-video {
+  width: 100%;
+  height: 100%;
+}
+
+.detailContent .title {
+  padding: 20rpx;
+  background: #fff;
+  width: 750rpx;
+}
+
+.detailContent .priceList {
+  align-items: flex-end;
+  margin-bottom: 10rpx;
+}
+
+.detailContent .title .share {
+  width: 220rpx;
+}
+
+.detailContent .title .share .iconfont {
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  border: 1px solid red;
+  text-align: center;
+  line-height: 60rpx;
+  margin-bottom: 10rpx;
+}
+
+.guige .guigeTitle {
+  padding: 25rpx 0;
+}
+
+.guige .guigeTitle view {
+  width: 70%;
+}
+.guigeBox{
+    max-height: 500rpx;
+    overflow-y: auto;
+}
+.guigeList {
+  flex-wrap: wrap;
+  padding-bottom: 15rpx;
+  font-size: 22rpx;
+  width:100%;
+  padding-left:20rpx;
+  padding-right:20rpx;
+}
+
+.guigeItem {
+  padding: 10rpx 15rpx;
+  border: 1px solid #F5F5F5;
+  margin: 15rpx 0 0 20rpx;
+  border-radius: 10rpx;
+}
+
+.guigeItem.guigeActive {
+  border-color: orangered;
+  color: orangered;
+}
+
+.pingjia {
+  margin: 20rpx 0;
+  padding: 0 20rpx;
+  background: #fff;
+}
+
+.pingjiaTitle {
+  padding-top: 20rpx;
+}
+
+.pingjiaList {
+  white-space: nowrap;
+  padding: 20rpx 0;
+}
+
+.pingjiaItem {
+  display: inline-block;
+  background: #f5f5f5;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  width: 500rpx;
+  margin-right: 20rpx;
+}
+
+.pingjiaItem:last-child {
+  margin-right: 0;
+}
+
+.pingjiaItem image {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.itemUser {
+  margin-bottom: 20rpx;
+}
+
+.itemUser .icon-buoumaotubiao44 {
+  font-size: 25rpx;
+  color: #f5d65d;
+}
+
+.itemUser .starItem {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+
+.itemUser  .manyi {
+  text-align: right;
+}
+
+.xiangqing {
+  margin-top: 20rpx;
+  background: #fff;
+  width: 750rpx;
+}
+
+.xiangqing .title {
+  padding: 20rpx;
+}
+
+.xiangqing image {
+  width: 100%;
+}
+
+button:after {
+  border: none;
+}
+
+.fixed navigator {
+  width: 250rpx;
+  justify-content: center;
+  border-right: 1px solid #ddd;
+}
+
+.fixed button {
+  width: 250rpx;
+  background: orangered;
+  border-radius: 0;
+  color: #fff;
+  box-shadow: none;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+
+.fixed .addCar {
+  background: #f5d65d;
+}
+
+.dianpu {
+  background: #fff;
+  padding: 20rpx;
+}
+
+.dianpu image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 20rpx;
+  margin-right: 20rpx;
+}
+
+.dianpu .text {
+  height: 100rpx;
+  padding: 10rpx 0;
+}
+
+.dianpu .text .red {
+  color: orangered;
+}
+
+.gouwucheIcon {
+  position: relative;
+}
+
+.gouwucheIcon .carNum {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  background: red;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20rpx;
+  padding: 5rpx 10rpx;
+  border-radius: 50%;
+}
+
+.numcontent .goods {
+  padding: 20rpx;
+}
+
+.numcontent .goods image {
+  width: 150rpx;
+  height: 150rpx;
+  background: #ddd;
+  border-radius: 10rpx;
+}
+
+.numcontent .goods .close {
+  color: #b7b7b7;
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 1px solid #b7b7b7;
+  border-radius: 50%;
+}
+
+.numcontent .queding {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  background: orangered;
+  color: #fff;
+  text-align: center;
+}
+
+.numcontent .jiajian {
+  color: #b7b7b7;
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 1px solid #b7b7b7;
+  border-radius: 50%;
+}
+
+.numcontent .jiajian.jian {
+  background: orangered;
+  color: #fff;
+  border: 1px solid orangered;
+}
+
+.numcontent .number {
+  margin: 0 50rpx;
+}
+
+.shareContent .shareTitle {
+  margin-left: 250rpx;
+  width: 250rpx;
+  padding: 20rpx 0;
+}
+
+.shareContent .lineH {
+  width: 50rpx;
+  height: 2rpx;
+  background: #b7b7b7;
+}
+
+.shareContent .quxiao {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.shareContent .shareBody {
+  width: 500rpx;
+  margin-left: 125rpx;
+  margin-top: 20rpx;
+}
+
+.shareContent .shareBody .weixin {
+  font-size: 100rpx;
+  color: #3ed371;
+}
+
+.shareContent .shareBody .haibao {
+  font-size: 100rpx;
+  color: #d68903;
+}
+
+.fenxiangPosition {
+  position: relative;
+}
+
+.fenxiangPosition>button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.haibaoContent {
+  width: 60%;
+  height: 1000rpx;
+  margin-left: 20%;
+  margin-top: 50rpx;
+  position: relative;
+}
+
+.haibaoContent .guanbi {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.savePic {
+  position: absolute;
+  bottom: 0;
+  left: 100rpx;
+  background: orangered;
+  width: 250rpx;
+  height: 70rpx;
+  /* margin-left:250rpx; */
+  border-radius: 40rpx;
+  line-height: 70rpx;
+  text-align: center;
+}
+
+.canvasBox {
+  color: red;
+  background: #fff;
+}
+
+.canvasBox canvas {
+  width: 100%;
+  height: 820rpx;
+}
+.sharefixed{
+  background:rgba(0,0,0,0.1);
+}
+.kefu{
+  width:120rpx;
+  height:120rpx;
+  position:fixed;
+  right:30rpx;
+  bottom:130rpx;
+  z-index:1;
+  border-radius:50%;
+  line-height:120rpx;
+  text-align:center;
+}
+.kefu text{
+  width:120rpx;
+  height:120rpx;
+  line-height:120rpx;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity: 1;
+  font-size:90rpx;
+  color:skyblue;
+   z-index:3
+}
+.kefu button{
+   position:absolute;
+   top:0;
+   left:0;
+   width:120rpx;
+   height:120rpx;
+   opacity: 0;
+   z-index:4
+}
+/* 规格选中时样式 */
+.standardSelected{
+    color: red;
+    border:solid 1px red;
+   
+}
+.standardNormal{
+  color: #000;
+  border:solid 1px #000;
+}
+.standardDisable{
+  color: #eee;
+   border:solid 1px #eee;
+}
+.standardTitle{
+  padding:30rpx;
+}
+/* 二手商品 */
+.secondhand{
+  display: flex;
+  padding-left: 20rpx;
+}
+.assistant{
+  color:rgb(235, 139, 13);
+  font-size: 25rpx;
+  font-weight: 900;
+
+}
+.guigekk{
+	float: right;
+}

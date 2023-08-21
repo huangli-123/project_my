@@ -1,0 +1,101 @@
+/* pages/orderDetail/orderDetail.wxss */
+.header{
+  padding:50rpx 30rpx;
+}
+page{
+  background:#f5f5f5;
+}
+.address{
+  background:#fff;
+  border-top:1px solid #ddd;
+  padding:20rpx;
+}
+.address .iconfont{
+  color:red;
+  font-weight:bold;
+  margin-right:15rpx;
+}
+.address  .tuzhang{
+  color:#fff;
+  background:#FCA5A5;
+  font-size:22rpx;
+  padding:3rpx 10rpx;
+  text-align:center;
+}
+.address  .quhuo{
+  margin-top:20rpx;
+}
+.goodsList{
+  background:#fff;
+  margin:20rpx 0;
+  width:100%;
+}
+.goodsList .dianpu .dianpuTitle{
+  height:90rpx;
+  padding:0 20rpx;
+  border-bottom:1px solid #ddd;
+}
+.goodsList .dianpu .dianpuTitle image{
+  width:70rpx;
+  height:70rpx;
+  border-radius:50%;
+  margin-right:20rpx;
+}
+.goodsList .dianpuContent{
+  padding:20rpx;
+}
+.goodsList .dianpuContent image{
+  width:150rpx;
+  height:150rpx;
+  margin-right:20rpx;
+}
+.goodsList .dianpuContent .goods{
+  width:540rpx;
+}
+.youhuiquan{
+  background:#fff;
+  padding:20rpx;
+  margin-bottom:20rpx;
+}
+.bottom{
+  background:#fff;
+  position:fixed;
+  bottom:0;
+  width:750rpx;
+  height:90rpx;
+}
+.bottom .goPay,.bottom navigator{
+  background:red;
+  color:#fff;
+  font-size:35rpx;
+  height:90rpx;
+  line-height:90rpx;
+  padding:0 40rpx;
+}
+.bottom navigator{
+  background:none;
+  color:#000;
+  border-left:1px solid #ddd;
+  margin-left:40rpx;
+   font-size:25rpx;
+}
+.pingjiaBtn{
+  color:red;
+  border:1px solid red;
+  border-radius:20rpx;
+  padding:5rpx 10rpx;
+   margin-left:20rpx;
+}
+.shouhouBtn{
+  color:#b7b7b7;
+  border:1px solid #b7b7b7;
+  border-radius:20rpx;
+  padding:5rpx 10rpx;
+ 
+}
+.wuliu{
+  background:#fff;
+  margin:20rpx 0;
+  padding:20rpx;
+  line-height:40rpx;
+}

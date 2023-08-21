@@ -1,0 +1,31 @@
+{
+    "version" : "1.1.3",
+    "prompt" : "template",
+    "title" : "服务协议和隐私政策",
+    "message" : "　　亲爱的用户，请你务必仔细阅读、充分理解“服务协议”和“隐私政策”各条款，关于协议特向您说明如下：,\r
+  <br/>    1.为保障服务所需，我们会申请系统权限收集您的手机设备信息用于安全风控，并申请存储权限用于缓存相关文件。\r
+  <br/>    2.基于您的明确授权，我们可能会获取您的位置信息以提供优惠信息，获取相机权限用于拍照和上传相关图片，获取电话权限用于您和客服联系，您有权拒绝或取消授权。\r
+  <br/>    3.我们的产品基于DCloud uni-app(5+ App/Wap2App)开发,应用运行期间需要收集您的设备唯一识别码（IMEI/android ID/DEVICE_ID/IDFA、SIM 卡 IMSI 信息）以提供统计分析服务，并通过应用启动数据及异常错误日志分析改进性能和用户体验，为用户提供更好的服务。详情内容请访问《DCloud用户服务条款》。（DCloud用户服务条款超链至：https://ask.dcloud.net.cn/protocol.html）。\r
+  <br/>    你可阅读<a href=\"https://www.jiabusanyi.com/SupermarketMobile/Agreement/service.html\">《服务协议》</a>和<a href=\"https://www.jiabusanyi.com/SupermarketMobile/Agreement/privacy.html\">《隐私政策》</a>了解详细信息。如果你同意，请点击下面按钮开始接受我们的服务。",
+    "buttonAccept" : "同意并接受",
+    "buttonRefuse" : "暂不同意",
+    "second" : {
+        "title" : "确认提示",
+        "message" : "　　进入应用前，你需先同意<a href=\"https://www.jiabusanyi.com/SupermarketMobile/Agreement/service.html\">《服务协议》</a>和<a href=\"https://www.jiabusanyi.com/SupermarketMobile/Agreement/privacy.html\">《隐私政策》</a>，否则将推出应用。",
+        "buttonAccept" : "同意并继续",
+        "buttonRefuse" : "退出应用"
+    },
+    "styles" : {
+        "backgroundColor" : "#ffffff",
+        "borderRadius" : "5px",
+        "title" : {
+            "color" : "#ff00ff"
+        },
+        "buttonAccept" : {
+            "color" : "#ff0000"
+        },
+        "buttonRefuse" : {
+            "color" : "#000fff"
+        }
+    }
+}
